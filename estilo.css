@@ -40,8 +40,14 @@ header {
     font-weight: bold;
 }
 
+.titulo {
+    border: .1rem solid greenyellow;
+    flex: 1;
+}
+
 .menu-hamburguer {
     border: .1rem solid red;
+    border-radius: 100%;
     width: 1.2rem;
     height: 1.2rem;
     padding: .5rem;
