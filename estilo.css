@@ -40,6 +40,17 @@ header {
     font-weight: bold;
 }
 
+.menu-hamburguer {
+    border: .1rem solid red;
+    width: 1.2rem;
+    height: 1.2rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
 section {
     border: .1rem solid blue;
     display: flex;
