@@ -40,7 +40,7 @@ header {
     font-weight: bold;
 }
 
-.titulo {
+.titulo-cabecalho {
     /* border: .1rem solid greenyellow; */
     flex: 1;
 }
@@ -138,4 +138,10 @@ footer {
     color: #eee;
     height: 3rem;
     padding: .7rem;
+}
+
+@media(max-width: 576px) {
+    .titulo-cabecalho {
+        opacity: 0;
+    }
 }
