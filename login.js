@@ -16,5 +16,4 @@ function verificarCredenciais() {
     }
     else
         alert("E-mail informado incorretamente!");
-
 }
