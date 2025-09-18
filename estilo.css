@@ -84,10 +84,32 @@ nav {
     /* border: .1rem solid orangered; */
     width: 15rem;
     background-color: #eee;
+    padding: .7rem; 
 }
 
 a {
   text-decoration: none;
+}
+
+.opcao {
+    border: .1rem solid green;
+    display: flex;
+    color: #5e5e5e;
+}
+
+.icone-inicial {
+    border: .1rem solid red;
+    margin-right: .5rem;
+}
+
+.rotulo {
+    border: .1rem solid red;
+    flex: 1;
+}
+
+.icone-final {
+    border: .1rem solid red;
+    margin-left: .5rem;
 }
 
 main {
