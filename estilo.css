@@ -86,6 +86,10 @@ nav {
     background-color: #eee;
 }
 
+a {
+  text-decoration: none;
+}
+
 main {
     /* border: .1rem solid purple; */
     flex: 1;
