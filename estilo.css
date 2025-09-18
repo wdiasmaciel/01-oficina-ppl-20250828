@@ -84,7 +84,7 @@ nav {
     /* border: .1rem solid orangered; */
     width: 15rem;
     background-color: #eee;
-    padding: .7rem; 
+    padding: .7rem;
 }
 
 li {
@@ -92,7 +92,7 @@ li {
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .opcao {
@@ -105,8 +105,16 @@ a {
 }
 
 .opcao:hover {
-  box-shadow: 0rem .3rem .3rem .01rem #ccc;
-  border: .1rem solid #bbb;
+    box-shadow: 0rem .3rem .3rem .01rem #ccc;
+    border: .1rem solid #bbb;
+}
+
+.opcao:hover .rotulo {
+    text-align: right;
+}
+
+.opcao:hover .icone-final {
+    opacity: 1;
 }
 
 .icone-inicial {
@@ -122,6 +130,8 @@ a {
 .icone-final {
     /* border: .1rem solid red; */
     margin-left: .5rem;
+    opacity: 0;
+    transition: opacity .3s ease-in;
 }
 
 main {
