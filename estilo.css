@@ -203,9 +203,17 @@ main {
     text-align: center;
 }
 
+.botao-cartao a {
+   color: #eee;
+}
+
 .botao-cartao:hover {
     color: white;
     background-color: #050577;
+}
+
+.botao-cartao:hover a {
+   color: white;
 }
 
 footer {
