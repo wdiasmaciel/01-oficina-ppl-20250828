@@ -22,7 +22,7 @@ function carregarNoticias() {
 
         cartao.innerHTML = `
           <img src="${noticia.imagem}" alta="${noticia.titulo}" class="imagem">
-          <section>
+          <section class="corpo-cartao">
             <h2 class="titulo-noticia-cartao">${noticia.titulo}</h2>
             <p>${noticia.categoria} - ${noticia.data}</p>
             <p class="descricao-noticia-cartao">${noticia.descricao}</p>
