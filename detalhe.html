@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhe da Notícia</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">W</div>
+        <h1 class="titulo-cabecalho">Meu Site</h1>
+    </header>
+    <main>
+        <div id="painel-de-detalhe" class="painel"></div>
+
+        <script src="./bd.js"></script>
+
+        <script>
+            const params = new URLSearchParams(window.location.search);
+            const id = parseInt(params.get("id"));
+
+            const noticia = dados.find(item => item.id === id);
+
+            if (noticia) {
+
+            } else
+                container.innerHTML = "<h2>Notícia não encontrada!</h2>"
+
+        </script>
+    </main>
+    <footer>&copy; Meu Site ❤️</footer>
+</body>
+
+</html>
