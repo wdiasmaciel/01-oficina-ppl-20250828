@@ -24,9 +24,11 @@
 
             const noticia = dados.find(item => item.id === id);
 
-            if (noticia) {
+            const container = document.getElementById("painel-de-detalhe");
 
-            } else
+            if (noticia)
+                container.innerHTML = ``;
+            else
                 container.innerHTML = "<h2>Notícia não encontrada!</h2>"
 
         </script>
